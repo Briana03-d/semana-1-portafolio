@@ -7,20 +7,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#sobre-mi">Sobre mí</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-                <li><a href="mascotas.html" class="nav-special">Mis Mascotas</a></li>
-            </ul>
+    <header class="sidebar">
+        <h1>Hi, i'm Briana Isabel De oro Oviedo</h1>
+        <div class="logo-area">
+            
+        </div>
+        <nav class="flex-nav">
+            <a href="#sobre-mi">Sobre mí</a>
+            <a href="#contacto">Contacto</a>
+            <a href="mascotas.html" class="nav-special">Mis Mascotas</a>
         </nav>
-                <h1>Hi, i'm Briana Isabel De oro Oviedo</h1>
-
     </header>
 
-    <main>
-        <section id="sobre-mi" class="card">
+    <main class="main-content">
+        <section id="sobre-mi">
             <h2>Sobre mí</h2>
             <p>soy una persona observadora, analítica y con capacidad de aprendizaje continuo. Me adapto a distintos contextos y busco comprender cómo funcionan las cosas antes de actuar. Tengo interés en mejorar mis habilidades y en resolver problemas de manera práctica, aunque a veces tiendo a cuestionar demasiado los procesos antes de tomar decisiones.
 
@@ -31,11 +31,9 @@ Aun así, tengo una disposición constante a aprender y mejorar, lo que me permi
 
         <section id="contacto" class="card">
             <h2>Contacto</h2>
-            <form id="contact-form">
-                <input type="text" placeholder="Nombre" required>
-                <input type="email" placeholder="Correo electrónico" required>
-                <textarea placeholder="Tu mensaje"></textarea>
-                <button type="submit">Enviar Mensaje</button>
+            <form>
+                <input type="text" placeholder="Nombre">
+                <button type="submit">Enviar </button>
             </form>
         </section>
     </main>
